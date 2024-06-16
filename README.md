@@ -11,10 +11,14 @@ project-name
 │   ├── README.md
 │   ├── app
 │   │   ├── api
+│   │   │   ├── crud
+│   │   │   │   └── crud.py
 │   │   │   ├── endpoints
 │   │   │   │   └── views.py
-│   │   │   └── models
-│   │   │       └── models.py
+│   │   │   ├── models
+│   │   │   │   └── models.py
+│   │   │   └── schemas
+│   │   │       └── schemas.py
 │   │   ├── core
 │   │   │   ├── config.py
 │   │   │   └── database.py
