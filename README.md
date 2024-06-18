@@ -14,12 +14,16 @@ project-name
 │   │   │   ├── crud
 │   │   │   │   └── crud.py
 │   │   │   ├── endpoints
+│   │   │   │   ├── __init__.py
 │   │   │   │   └── views.py
 │   │   │   ├── models
+│   │   │   │   ├── __init__.py
 │   │   │   │   └── models.py
 │   │   │   └── schemas
+│   │   │       ├── __init__.py
 │   │   │       └── schemas.py
 │   │   ├── core
+│   │   │   ├── __init__.py
 │   │   │   ├── config.py
 │   │   │   └── database.py
 │   │   └── main.py
