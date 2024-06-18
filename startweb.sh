@@ -45,9 +45,13 @@ EOF
     touch "backend/dockerfile"
     touch "backend/README.md"
     touch "backend/app/api/endpoints/views.py"
+    touch "backend/app/api/endpoints/__init__.py"
+    touch "backend/app/api/models/__init__.py"
     touch "backend/app/api/models/models.py"
     touch "backend/app/api/crud/crud.py"
+    touch "backend/app/api/schemas/__init__.py"
     touch "backend/app/api/schemas/schemas.py"
+    touch "backend/app/core/__init__.py"
     touch "backend/app/core/config.py"
     touch "backend/app/core/database.py"
     # db ディレクトリ内の必要なファイルとディレクトリを作成
