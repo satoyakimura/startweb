@@ -35,7 +35,7 @@ __pycache__/
 .vscode/
 EOF
     # backend ディレクトリ内の必要なファイルとディレクトリを作成
-    mkdir -p "backend/app/main.py"
+    touch -p "backend/app/main.py"
     mkdir -p "backend/app/api/endpoints"
     mkdir -p "backend/app/api/models"
     mkdir -p "backend/app/api/crud"
@@ -44,13 +44,13 @@ EOF
     touch "backend/requirements.txt"
     touch "backend/dockerfile"
     touch "backend/README.md"
-    touch "backend/app/api/endpoints/views.py"
+    touch "backend/app/api/endpoints/view_end.py"
     touch "backend/app/api/endpoints/__init__.py"
     touch "backend/app/api/models/__init__.py"
-    touch "backend/app/api/models/models.py"
-    touch "backend/app/api/crud/crud.py"
+    touch "backend/app/api/models/user_mod.py"
+    touch "backend/app/api/crud/user_crud.py"
     touch "backend/app/api/schemas/__init__.py"
-    touch "backend/app/api/schemas/schemas.py"
+    touch "backend/app/api/schemas/user_sch.py"
     touch "backend/app/core/__init__.py"
     touch "backend/app/core/config.py"
     touch "backend/app/core/database.py"
