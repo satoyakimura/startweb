@@ -12,16 +12,16 @@ project-name
 │   ├── app
 │   │   ├── api
 │   │   │   ├── crud
-│   │   │   │   └── crud.py
+│   │   │   │   └── user_crud.py
 │   │   │   ├── endpoints
 │   │   │   │   ├── __init__.py
-│   │   │   │   └── views.py
+│   │   │   │   └── view_end.py
 │   │   │   ├── models
 │   │   │   │   ├── __init__.py
-│   │   │   │   └── models.py
+│   │   │   │   └── user_mod.py
 │   │   │   └── schemas
 │   │   │       ├── __init__.py
-│   │   │       └── schemas.py
+│   │   │       └── user_sch.py
 │   │   ├── core
 │   │   │   ├── __init__.py
 │   │   │   ├── config.py
