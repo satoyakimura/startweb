@@ -35,12 +35,12 @@ __pycache__/
 .vscode/
 EOF
     # backend ディレクトリ内の必要なファイルとディレクトリを作成
-    touch -p "backend/app/main.py"
     mkdir -p "backend/app/api/endpoints"
     mkdir -p "backend/app/api/models"
     mkdir -p "backend/app/api/crud"
     mkdir -p "backend/app/api/schemas"
     mkdir -p "backend/app/core"
+    touch "backend/app/main.py"
     touch "backend/requirements.txt"
     touch "backend/dockerfile"
     touch "backend/README.md"
@@ -64,3 +64,4 @@ EOF
 
 # スクリプト実行時の第1引数を使用してディレクトリを作成
 create_tree "$1"
+
